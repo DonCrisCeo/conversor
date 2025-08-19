@@ -33,7 +33,7 @@ public class ConversionLogger {
                     record.getTargetCurrency(),
                     record.getExchangeRate());
         } catch (IOException e) {
-            System.out.println("Error al escribir en el archivo .txt: " + e.getMessage());
+            System.out.println("Error, al escribir en el archivo .txt: " + e.getMessage());
         }
     }
 
@@ -58,7 +58,7 @@ public class ConversionLogger {
                 writer.write(updatedJson);
             }
         } catch (IOException e) {
-            System.out.println("Error al escribir en el archivo .json: " + e.getMessage());
+            System.out.println("Error, al escribir en el archivo .json: " + e.getMessage());
         }
     }
 
@@ -73,12 +73,12 @@ public class ConversionLogger {
 
         @Override
         public JsonElement serialize(LocalDateTime dateTime, Type typeOfSrc, JsonSerializationContext context) {
-            return new JsonPrimitive(dateTime.format(formatter));  // Convertir LocalDateTime a String
+            return new JsonPrimitive(dateTime.format(formatter));  // LocalDateTime a String
         }
 
         @Override
         public LocalDateTime deserialize(JsonElement json, Type typeOfT, JsonDeserializationContext context) throws JsonParseException {
-            return LocalDateTime.parse(json.getAsString(), formatter);  // Convertir String a LocalDateTime
+            return LocalDateTime.parse(json.getAsString(), formatter);  // String a LocalDateTime
         }
     }
 }
