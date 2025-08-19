@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/cafabc87-8d38-4df5-bc07-513fdbd3d5fb" alt="RateWise - Conoce el cambio. Controla tu dinero">
-</p>
-
 <p>
   <img src="https://img.shields.io/badge/VERSIÓN-1.0.0-blue"/>
   <img src="https://img.shields.io/badge/LENGUAJE-Java-blue"/>
