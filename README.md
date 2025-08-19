@@ -19,3 +19,15 @@ para obtener los datos y realiza la conversión de forma facil.
 ## Tecnologías Aplicada 
 - Lenguaje de programación: **Java**
 - API: **[ExchangeRate-API](https://www.exchangerate-api.com/)**
+
+# Versión
+
+<p>
+  <img src="https://img.shields.io/badge/VERSIÓN-1.0.0-blue"/>
+  <img src="https://img.shields.io/badge/LENGUAJE-Java-blue"/>
+  <img src="https://img.shields.io/badge/INTERFAZ-Línea%20de%20comandos-lightgrey"/>
+  <img src="https://img.shields.io/badge/PLATAFORMA-Multiplataforma-9cf"/>
+  <img src="https://img.shields.io/badge/API-ExchangeRate--API-orange"/>
+  <img src="https://img.shields.io/badge/ESTADO-CONCLUIDO-brightgreen"/>
+  <img src="https://img.shields.io/badge/ACCESO%20OFFLINE-SÍ-brightgreen"/>
+</p>
