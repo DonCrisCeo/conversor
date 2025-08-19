@@ -79,7 +79,3 @@ Tal como se muestra en el siguiente video (hacer click sobre la imagen):
     <img src="https://github.com/user-attachments/assets/3b6ac41b-8828-4802-8f4f-b480d2819778" alt="Conversor de monedas" width="500"/>
   </a>
 </p>
-
-## Autores
-|  [<img src="https://avatars.githubusercontent.com/u/127985134?s=96&v=4" width=115><br><sub>JJGG1</sub>](https://github.com/JJGG1) |
-| :---: | 
