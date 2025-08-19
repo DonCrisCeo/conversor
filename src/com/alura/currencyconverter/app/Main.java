@@ -17,20 +17,20 @@ public class Main {
         ExchangeRateService exchangeRateService = new ExchangeRateService();
         ConversionCalculator conversionCalculator = new ConversionCalculator();
 
-        // Bucle principal que permite hacer conversiones múltiples
+        // Bucle que permite hacer conversiones
         while (true) {
             try {
                 // Seleccionar moneda base
-                String baseCurrency = CurrencySelector.selectBaseCurrency(scanner);  // Aquí se selecciona la moneda base
+                String baseCurrency = CurrencySelector.selectBaseCurrency(scanner);  // Selecciona la moneda base
 
-                // Si baseCurrency es null (selección inválida), terminamos
+                // Si baseCurrency es null (selección inválida), se termina
                 if (baseCurrency == null) {
                     System.out.println("Selección de moneda base inválida. Terminando el programa.");
                     break;
                 }
 
-                // Seleccionar moneda destino
-                String targetCurrency = CurrencySelector.selectTargetCurrency(scanner, baseCurrency);  // Ahora con la moneda base
+                // Seleccionar moneda seleccionada
+                String targetCurrency = CurrencySelector.selectTargetCurrency(scanner, baseCurrency);  // Moneda base
 
                 // Si targetCurrency es null (selección inválida), terminamos
                 if (targetCurrency == null) {
@@ -38,7 +38,7 @@ public class Main {
                     break;
                 }
 
-                // Pedir la cantidad a convertir
+                // Cantidad a convertir
                 System.out.println("Ingrese la cantidad a convertir de " + baseCurrency + " a " + targetCurrency + ":");
                 double amount = scanner.nextDouble();
 
@@ -50,7 +50,7 @@ public class Main {
                 if (convertedAmount != 0) {
                     System.out.printf("%.2f %s = %.2f %s%n", amount, baseCurrency, convertedAmount, targetCurrency);
 
-                    //Guardar en archivos
+                    //Guardar siempre
                     ConversionRecord record = new ConversionRecord(
                             LocalDateTime.now(),
                             baseCurrency,
@@ -62,7 +62,7 @@ public class Main {
                     ConversionLogger.logConversion(record);
                 }
 
-                // Preguntar al usuario si quiere realizar otra conversión
+                // Preguntar al usuario para realizar conversión
                 int option;
                 do {
                     System.out.println("Elija una opción:");
