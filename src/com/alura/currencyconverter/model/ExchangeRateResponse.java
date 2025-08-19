@@ -7,7 +7,7 @@ public class ExchangeRateResponse {
     private String base_code;
     private Map<String, Double> conversion_rates;
 
-    // Getters y setters
+    // Captadores y definidores
     public String getResult() {
         return result;
     }
