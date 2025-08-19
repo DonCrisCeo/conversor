@@ -1,16 +1,4 @@
-<p>
-  <img src="https://img.shields.io/badge/VERSIÓN-1.0.0-blue"/>
-  <img src="https://img.shields.io/badge/LENGUAJE-Java-blue"/>
-  <img src="https://img.shields.io/badge/INTERFAZ-Línea%20de%20comandos-lightgrey"/>
-  <img src="https://img.shields.io/badge/PLATAFORMA-Multiplataforma-9cf"/>
-  <img src="https://img.shields.io/badge/API-ExchangeRate--API-orange"/>
-  <img src="https://img.shields.io/badge/ESTADO-CONCLUIDO-brightgreen"/>
-  <img src="https://img.shields.io/badge/ÚLTIMA%20ACTUALIZACIÓN-MAYO%202025-orange"/>
-  <img src="https://img.shields.io/badge/ACCESO%20OFFLINE-SÍ-brightgreen"/>
-</p>
-
-
-# 🪙➡️💵 Convertidor de monedas 💵➡️🪙
+# Convertidor de monedas
 
 ## ℹ️ Descripción
 Este proyecto es una aplicación que permite convertir montos de una moneda a otra 
