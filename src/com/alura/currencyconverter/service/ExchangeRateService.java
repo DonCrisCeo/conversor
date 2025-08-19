@@ -25,9 +25,9 @@ public class ExchangeRateService {
             ExchangeRateResponse exchangeRateResponse = new Gson().fromJson(response.body(), ExchangeRateResponse.class);
             Map<String, Double> conversionRates = exchangeRateResponse.getConversion_rates();
 
-            // Verificar si el mapa es null o vacío
+            // Corrobor el mapa es null o vacío
             if (conversionRates == null || conversionRates.isEmpty()) {
-                throw new Exception("Error: No se encontraron tasas de conversión para la moneda base " + baseCurrency);
+                throw new Exception("Problema: No se encontraron conversión para la moneda base " + baseCurrency);
             }
 
             return conversionRates;
