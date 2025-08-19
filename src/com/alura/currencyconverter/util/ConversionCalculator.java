@@ -7,7 +7,7 @@ public class ConversionCalculator {
             double conversionRate = rates.get(targetCurrency);
             return amount * conversionRate;
         } else {
-            System.out.println("Error: No se encontró la tasa de conversión para la moneda seleccionada.");
+            System.out.println("Error: No se encontró conversión para la moneda seleccionada.");
             return 0;
         }
     }
