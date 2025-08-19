@@ -1,6 +1,6 @@
 # Convertidor de monedas
 
-## ℹ️ Descripción
+## Descripción
 Proyecto que permite convertir montos de una moneda a otra 
 utilizando tasas de cambio en tiempo real. La aplicación se conecta a una API externa 
 para obtener los datos y realiza la conversión de forma sencilla.
