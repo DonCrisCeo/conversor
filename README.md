@@ -1,6 +1,6 @@
 # Estado del proyecto
 <p align="left">
-<img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
+<img src="https://img.shields.io/badge/ESTADO-CONCLUIDO-brightgreen"/>
 </p>
 # Convertidor de monedas
 
@@ -28,6 +28,5 @@ para obtener los datos y realiza la conversión de forma facil.
   <img src="https://img.shields.io/badge/INTERFAZ-Línea%20de%20comandos-lightgrey"/>
   <img src="https://img.shields.io/badge/PLATAFORMA-Multiplataforma-9cf"/>
   <img src="https://img.shields.io/badge/API-ExchangeRate--API-orange"/>
-  <img src="https://img.shields.io/badge/ESTADO-CONCLUIDO-brightgreen"/>
   <img src="https://img.shields.io/badge/ACCESO%20OFFLINE-SÍ-brightgreen"/>
 </p>
