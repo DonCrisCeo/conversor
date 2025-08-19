@@ -7,7 +7,7 @@ import java.util.*;
 public class CurrencySelector {
 
     public static String selectBaseCurrency(Scanner scanner) {
-        return selectCurrency(scanner, "USD", "Seleccione la moneda base (ingrese el número):");
+        return selectCurrency(scanner, "USD", " ingrese el número de la moneda base:");
     }
 
     public static String selectTargetCurrency(Scanner scanner, String baseCurrency) {
@@ -29,7 +29,7 @@ public class CurrencySelector {
 
                 // Validar que se ingrese un número
                 if (!scanner.hasNextInt()) {
-                    System.out.println("Entrada no válida. Por favor, ingrese un número.");
+                    System.out.println("Entrada no válida. Ingrese un número.");
                     scanner.next(); // Descartar entrada inválida
                     continue;
                 }
@@ -37,7 +37,7 @@ public class CurrencySelector {
                 int selectedCurrencyIndex = scanner.nextInt() - 1;
 
                 if (selectedCurrencyIndex < 0 || selectedCurrencyIndex >= currencies.length) {
-                    System.out.println("Selección inválida. Por favor, elija un número válido.");
+                    System.out.println("Selección inválida. Elija un número válido.");
                 } else {
                     return currencies[selectedCurrencyIndex];  // Selección válida
                 }
